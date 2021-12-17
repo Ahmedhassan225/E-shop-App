@@ -1,20 +1,33 @@
-﻿{
-  "name": "nodejs-eshop-app",
+{
+  "name": "e-shop-app",
   "version": "1.0.0",
-  "description": "Complete Node.js Guide Ucdemy Course",
+  "description": "E shop app",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js",
+    "start": "nodemon app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmedhassan225/E-shop-App.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Backend",
+    "Server",
+    "Ejs",
+    "Express"
+  ],
   "author": "Ahmed Hassan",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^1.18.3"
+  "bugs": {
+    "url": "https://github.com/Ahmedhassan225/E-shop-App/issues"
   },
+  "homepage": "https://github.com/Ahmedhassan225/E-shop-App#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "ejs": "^2.6.1",
-    "express": "^4.16.3",
+    "body-parser": "^1.19.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
   }
 }
